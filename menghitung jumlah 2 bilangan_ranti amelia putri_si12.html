@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<kepala>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <judul>Dokumen</judul>
+</kepala>
+<tubuh>
+    <jenis masukan="teks" id="nim1">
+    <p>4</p>
+    <jenis masukan="teks" id="nim2">
+    <p>+</p>
+    <jenis masukan="teks" id="nim3">
+    <p>5</p>
+    <br>
+    <br>
+    <br>
+    <button onclick="=()">9</button>
+    <br>
+    <h1 id="jawab"></h1>
+    <script>
+        fungsi Jumlahkan(){
+            var field1 = dokumen.getElementById("num1").nilai;
+            var field2 = dokumen.getElementById("num2").nilai;
+
+            var hasil = parseFloat(field1)+parseFloat(field2);
+
+            if(!isNaN(hasil)){
+                dokumen.getElementById("Jumlah").innerHTML=""+hasil;
+            }
+        } 
+    </script>
+</tubuh>
+</html>
